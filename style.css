@@ -56,21 +56,30 @@ body {
    box-shadow: 0 0 0 3px #dd5657;
 }
 
-
 .social{
-   display: inline-block;
-   text-align: center;
-   flex-wrap: wrap;
    margin: 2% 0;
-   padding: 0 5%;
    background-color: white;
    border: 1px solid lightgrey;
-   border-radius: 1%;
+   padding: 4%;
+   border-radius: 3%;
    box-shadow: 0px 1px 5px 1px rgb(180, 180, 180);
+}
+
+.effect{
+   padding: 20px 0px;
+}
+
+table{
+   padding: 5% 0;
+   width: 100%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
 }
 .icon{
    display: block;
 }
+
 
 .movies{
    display: inline-block;
@@ -82,4 +91,24 @@ body {
    border: 1px solid lightgrey;
    border-radius: 1%;
    box-shadow: 0px 1px 5px 1px rgb(180, 180, 180);
+}
+
+.movie{
+   display: flex;
+   margin: 10% 0;
+}
+
+.cover{
+   display: flex;
+   height: 200px;
+}
+
+.summary{
+   display: inline-block;
+   height: 30%;
+   padding: 0% 2% 0% 5%;
+}
+
+.summary p{
+   text-align: justify;
 }
