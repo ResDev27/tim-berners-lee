@@ -80,6 +80,20 @@ table{
    display: block;
 }
 
+a {
+   color: gray;
+}
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
 
 .movies{
    display: inline-block;
@@ -93,6 +107,9 @@ table{
    box-shadow: 0px 1px 5px 1px rgb(180, 180, 180);
 }
 
+h3 span {
+   background-color: rgb(163, 162, 162);
+}
 .movie{
    display: flex;
    margin: 10% 0;
